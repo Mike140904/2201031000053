@@ -1,0 +1,665 @@
+import * as React from "react";
+import { FunctionComponent } from "react";
+import * as styles from "./index.module.css";
+
+const Kindergarten: FunctionComponent = () => {
+  return (
+    <div className={styles.kindergarten}>
+      <div className={styles.footer}>
+        <div className={styles.footerTop}>
+          <div className={styles.logoContent}>
+            <div className={styles.logo}>
+              <div className={styles.kindergarten1}>KinderGarten</div>
+              <img
+                className={styles.fa6SolidchildrenIcon}
+                alt=""
+                src="/fa6solidchildren.svg"
+              />
+            </div>
+            <div className={styles.content}>
+              <div className={styles.div}>
+                <img
+                  className={styles.solarmapPointOutlineIcon}
+                  alt=""
+                  src="/solarmappointoutline.svg"
+                />
+                <div className={styles.dallasTexas}>Dallas, Texas</div>
+              </div>
+              <div className={styles.div}>
+                <img
+                  className={styles.solarmapPointOutlineIcon}
+                  alt=""
+                  src="/solarletteroutline.svg"
+                />
+                <div className={styles.dallasTexas}>youremail@gmail.com</div>
+              </div>
+              <div className={styles.div}>
+                <img
+                  className={styles.solarmapPointOutlineIcon}
+                  alt=""
+                  src="/solarphonecallingoutline.svg"
+                />
+                <div className={styles.dallasTexas}>888 333 9999</div>
+              </div>
+              <div className={styles.div}>
+                <img
+                  className={styles.solarmapPointOutlineIcon}
+                  alt=""
+                  src="/solarclockcircleoutline.svg"
+                />
+                <div className={styles.dallasTexas}>
+                  8:00-18:00, Sat: Closed
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.social}>
+            <div className={styles.rectangleParent}>
+              <div className={styles.groupChild} />
+              <div className={styles.div5}></div>
+            </div>
+            <div className={styles.rectangleGroup}>
+              <div className={styles.groupItem} />
+              <div className={styles.div6}></div>
+            </div>
+            <div className={styles.rectangleGroup}>
+              <div className={styles.groupItem} />
+              <div className={styles.div7}></div>
+            </div>
+            <div className={styles.groupDiv}>
+              <div className={styles.groupItem} />
+              <div className={styles.wrapper}>
+                <div className={styles.div8}></div>
+              </div>
+            </div>
+            <div className={styles.rectangleGroup}>
+              <div className={styles.groupItem} />
+              <div className={styles.div6}></div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.bottom}>
+          <div className={styles.dallasTexas}>
+            <span>{`©2023 Kindergarten. Template designed by: `}</span>
+            <b className={styles.templatesjungle}>TemplatesJungle</b>
+          </div>
+        </div>
+      </div>
+      <div className={styles.howToEnrollYourChild}>
+        <div className={styles.howToEnroll}>How to enroll your child?</div>
+        <div className={styles.content1}>
+          <div className={styles.text}>
+            <div className={styles.call666333}>
+              Call: 666 333 9999 or Fill in the form below
+            </div>
+            <div className={styles.pretiumTurpisFaucibus}>
+              Pretium turpis faucibus adipiscing duis. Id quis tristique mi
+              vitae nec. In et in praesent pellentesque. Porta sit porta
+              ridiculus faucibus.
+            </div>
+          </div>
+          <div className={styles.form}>
+            <div className={styles.input}>
+              <div className={styles.parentsName}>Parents name</div>
+            </div>
+            <div className={styles.input}>
+              <div className={styles.parentsName}>Contact phone</div>
+            </div>
+            <div className={styles.input2}>
+              <div className={styles.parentsName}>Your message</div>
+            </div>
+            <div className={styles.btn}>
+              <b className={styles.submit}>Submit</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.newsArticles}>
+        <div className={styles.newsArticles1}>{`News & Articles`}</div>
+        <div className={styles.latestBlogPosts}>
+          <div className={styles.posts}>
+            <div className={styles.div10}>
+              <img
+                className={styles.pexelsYanKrukau86131791Icon}
+                alt=""
+                src="/pexelsyankrukau8613179-1@2x.png"
+              />
+              <div className={styles.div11}>
+                <div className={styles.febFri}>22 Feb, Fri</div>
+                <div className={styles.theBenefitsOf}>
+                  The Benefits of Play-Based Learning for Kindergarteners
+                </div>
+              </div>
+            </div>
+            <div className={styles.div10}>
+              <img
+                className={styles.pexelsYanKrukau86131791Icon}
+                alt=""
+                src="/pexelsyankrukau8613179-1@2x.png"
+              />
+              <div className={styles.div11}>
+                <div className={styles.febFri}>22 Feb, Fri</div>
+                <div className={styles.theBenefitsOf}>
+                  Nutrition Tips for Healthy Kindergarten Snacks
+                </div>
+              </div>
+            </div>
+            <div className={styles.div10}>
+              <img
+                className={styles.pexelsYanKrukau86131791Icon}
+                alt=""
+                src="/pexelsyankrukau8613179-1@2x.png"
+              />
+              <div className={styles.div11}>
+                <div className={styles.febFri}>22 Feb, Fri</div>
+                <div className={styles.theBenefitsOf}>
+                  Creating a Safe and Inclusive Kindergarten Environment
+                </div>
+              </div>
+            </div>
+            <div className={styles.div10}>
+              <img
+                className={styles.pexelsYanKrukau86131791Icon}
+                alt=""
+                src="/pexelsyankrukau8613179-1@2x.png"
+              />
+              <div className={styles.div11}>
+                <div className={styles.febFri}>22 Feb, Fri</div>
+                <div className={styles.theBenefitsOf}>
+                  Craft Ideas for Kindergarten Art Projects
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.btn}>
+          <b className={styles.submit}>Read all news</b>
+        </div>
+      </div>
+      <div className={styles.testimonials}>
+        <img className={styles.bgIcon} alt="" src="/bg@2x.png" />
+        <div className={styles.content2}>
+          <div className={styles.content3}>
+            <img
+              className={styles.contentChild}
+              alt=""
+              src="/ellipse-153@2x.png"
+            />
+            <div className={styles.text1}>
+              <div className={styles.pretiumTurpisFaucibus1}>
+                “Pretium turpis faucibus adipiscing duis. Id quis tristique mi
+                vitae nec. In et in praesent pellentesque. Porta sit porta
+                ridiculus faucibus. Curabitur lacus pretium pellentesque
+                interdum urna blandit.”
+              </div>
+              <div className={styles.nameWho}>
+                <div className={styles.howToEnroll}>Emily Smith</div>
+                <div className={styles.sereneMom}>Serene mom</div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.slider}>
+            <div className={styles.sliderChild} />
+            <div className={styles.sliderItem} />
+            <div className={styles.sliderItem} />
+          </div>
+        </div>
+      </div>
+      <div className={styles.viewOurGallery}>
+        <div className={styles.howToEnroll}>View our gallery</div>
+        <div className={styles.images}>
+          <div className={styles.div18}>
+            <img className={styles.child} alt="" src="/rectangle-466@2x.png" />
+            <img className={styles.item} alt="" src="/rectangle-469@2x.png" />
+          </div>
+          <div className={styles.div18}>
+            <img className={styles.inner} alt="" src="/rectangle-467@2x.png" />
+            <img
+              className={styles.rectangleIcon}
+              alt=""
+              src="/rectangle-470@2x.png"
+            />
+          </div>
+          <div className={styles.div18}>
+            <img className={styles.child1} alt="" src="/rectangle-468@2x.png" />
+            <img className={styles.child} alt="" src="/rectangle-471@2x.png" />
+          </div>
+        </div>
+        <div className={styles.btn2}>
+          <b className={styles.submit}>View Gallery</b>
+        </div>
+      </div>
+      <div className={styles.upcomingEvents}>
+        <div className={styles.upcomingEvents1}>
+          <div className={styles.howToEnroll}>Upcoming Events</div>
+          <div className={styles.upcomingEvents3}>
+            <div className={styles.text2}>
+              <div className={styles.date}>
+                <div className={styles.howToEnroll}>22</div>
+                <div className={styles.feb}>Feb</div>
+              </div>
+              <div className={styles.text3}>
+                <div className={styles.storytimeHour}>Storytime Hour</div>
+                <div className={styles.pm530}>4:30 PM - 5:30 PM</div>
+              </div>
+              <img className={styles.textChild} alt="" src="/vector-1.svg" />
+            </div>
+            <div className={styles.text2}>
+              <div className={styles.date}>
+                <div className={styles.howToEnroll}>30</div>
+                <div className={styles.feb}>sep</div>
+              </div>
+              <div className={styles.text3}>
+                <div className={styles.storytimeHour}>
+                  Music and Dance Party
+                </div>
+                <div className={styles.pm530}>3:30 PM - 5:30 PM</div>
+              </div>
+              <img className={styles.textChild} alt="" src="/vector-1.svg" />
+            </div>
+            <div className={styles.text2}>
+              <div className={styles.date}>
+                <div className={styles.howToEnroll}>26</div>
+                <div className={styles.feb}>Oct</div>
+              </div>
+              <div className={styles.text3}>
+                <div className={styles.storytimeHour}>
+                  Celebration of Cultures
+                </div>
+                <div className={styles.pm530}>12:30 PM - 3:30 PM</div>
+              </div>
+              <img className={styles.textChild} alt="" src="/vector-1.svg" />
+            </div>
+          </div>
+        </div>
+        <img
+          className={styles.pexelsYanKrukau86131212Icon}
+          alt=""
+          src="/pexelsyankrukau8613121-2@2x.png"
+        />
+      </div>
+      <div className={styles.ourActivitiesEvents}>
+        <div className={styles.ourActivities}>{`Our Activities & Events`}</div>
+        <div className={styles.tab}>
+          <div className={styles.active}>
+            <div className={styles.all}>All</div>
+          </div>
+          <div className={styles.btn3}>
+            <div className={styles.all}>Outdoor</div>
+          </div>
+          <div className={styles.btn3}>
+            <div className={styles.all}>Party</div>
+          </div>
+          <div className={styles.btn3}>
+            <div className={styles.all}>Sports</div>
+          </div>
+        </div>
+        <div className={styles.date}>
+          <div className={styles.div24}>
+            <div className={styles.div25}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>22 Feb, Fri</div>
+                <div className={styles.artAndCraft}>Storytime Hour</div>
+                <div className={styles.pm5302}>4:30 PM - 5:30 PM</div>
+              </div>
+            </div>
+            <div className={styles.div26}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>13 Jan, Mon</div>
+                <div className={styles.artAndCraft}>Art and Craft Day</div>
+                <div className={styles.pm5302}>2:30 PM - 3:30 PM</div>
+              </div>
+            </div>
+            <div className={styles.div26}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>16 Mar, Tue</div>
+                <div className={styles.artAndCraft}>Nature Walk</div>
+                <div className={styles.pm5302}>4:30 PM - 5:30 PM</div>
+              </div>
+            </div>
+            <div className={styles.div26}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>19 Apr, Sun</div>
+                <div className={styles.artAndCraft}>Science Day</div>
+                <div className={styles.pm5302}>1:00 PM - 2:30 PM</div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.line} />
+          <div className={styles.div24}>
+            <div className={styles.div25}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>12 Jan, Sun</div>
+                <div className={styles.artAndCraft}>Music and Dance Party</div>
+                <div className={styles.pm5302}>3:30 PM - 5:30 PM</div>
+              </div>
+            </div>
+            <div className={styles.div26}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>06 Feb, Tue</div>
+                <div className={styles.artAndCraft}>Field Trip</div>
+                <div className={styles.pm5302}>2:30 PM - 3:30 PM</div>
+              </div>
+            </div>
+            <div className={styles.div26}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>26 Aug, Fri</div>
+                <div className={styles.artAndCraft}>
+                  Celebration of Cultures
+                </div>
+                <div className={styles.pm5302}>12:30 PM - 3:30 PM</div>
+              </div>
+            </div>
+            <div className={styles.div26}>
+              <div className={styles.text8}>
+                <div className={styles.febFri}>17 Feb, Tue</div>
+                <div className={styles.artAndCraft}>Sports Day</div>
+                <div className={styles.pm5302}>2:00 PM - 3:00 PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.meetOurEducators}>
+        <div className={styles.howToEnroll}>Meet our educators</div>
+        <div className={styles.educators}>
+          <div className={styles.div34}>
+            <img className={styles.child3} alt="" src="/rectangle-480@2x.png" />
+            <div className={styles.text16}>
+              <div className={styles.howToEnroll}>Sophia Anderson</div>
+              <div className={styles.activeLearningTeacher}>
+                Active Learning Teacher
+              </div>
+            </div>
+          </div>
+          <div className={styles.div34}>
+            <img className={styles.child3} alt="" src="/rectangle-481@2x.png" />
+            <div className={styles.text16}>
+              <div className={styles.howToEnroll}>Emily Johnson</div>
+              <div className={styles.activeLearningTeacher}>
+                Science Teacher
+              </div>
+            </div>
+          </div>
+          <div className={styles.div34}>
+            <img className={styles.child3} alt="" src="/rectangle-482@2x.png" />
+            <div className={styles.text16}>
+              <div className={styles.howToEnroll}>Ava Martin</div>
+              <div className={styles.activeLearningTeacher}>Art Teacher</div>
+            </div>
+          </div>
+          <div className={styles.div37}>
+            <img className={styles.child3} alt="" src="/rectangle-483@2x.png" />
+            <div className={styles.text19}>
+              <div className={styles.howToEnroll}>Olivia Smith</div>
+              <div className={styles.activeLearningTeacher}>
+                Literacy Teacher
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.chooseClassesForYourKid}>
+        <div className={styles.logoContent}>
+          <div className={styles.howToEnroll}>Choose Classes for your kid</div>
+          <div className={styles.classes}>
+            <div className={styles.div38}>
+              <img
+                className={styles.child7}
+                alt=""
+                src="/rectangle-475@2x.png"
+              />
+              <div className={styles.text19}>
+                <div className={styles.howToEnroll}>Learning Class</div>
+                <div className={styles.info}>
+                  <div className={styles.date}>
+                    <div className={styles.div39}>2-5</div>
+                    <div className={styles.yearsOld}>Years old</div>
+                  </div>
+                  <div className={styles.infoChild} />
+                  <div className={styles.date}>
+                    <div className={styles.div39}>22</div>
+                    <div className={styles.yearsOld}>Class size</div>
+                  </div>
+                  <div className={styles.infoChild} />
+                  <div className={styles.date}>
+                    <div className={styles.div39}>56$</div>
+                    <div className={styles.yearsOld}>Pricing</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.div38}>
+              <img
+                className={styles.child7}
+                alt=""
+                src="/rectangle-476@2x.png"
+              />
+              <div className={styles.text19}>
+                <div className={styles.howToEnroll}>Meditation class</div>
+                <div className={styles.info}>
+                  <div className={styles.date}>
+                    <div className={styles.div39}>2-5</div>
+                    <div className={styles.yearsOld}>Years old</div>
+                  </div>
+                  <div className={styles.infoChild} />
+                  <div className={styles.date}>
+                    <div className={styles.div39}>22</div>
+                    <div className={styles.yearsOld}>Class size</div>
+                  </div>
+                  <div className={styles.infoChild} />
+                  <div className={styles.date}>
+                    <div className={styles.div39}>56$</div>
+                    <div className={styles.yearsOld}>Pricing</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={styles.div38}>
+              <img
+                className={styles.child7}
+                alt=""
+                src="/rectangle-477@2x.png"
+              />
+              <div className={styles.text19}>
+                <div className={styles.howToEnroll}>Art Class</div>
+                <div className={styles.info}>
+                  <div className={styles.date}>
+                    <div className={styles.div39}>2-5</div>
+                    <div className={styles.yearsOld}>Years old</div>
+                  </div>
+                  <div className={styles.infoChild} />
+                  <div className={styles.date}>
+                    <div className={styles.div39}>22</div>
+                    <div className={styles.yearsOld}>Class size</div>
+                  </div>
+                  <div className={styles.infoChild} />
+                  <div className={styles.date}>
+                    <div className={styles.div39}>56$</div>
+                    <div className={styles.yearsOld}>Pricing</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.slider}>
+          <div className={styles.sliderChild} />
+          <div className={styles.sliderItem} />
+          <div className={styles.sliderItem} />
+        </div>
+      </div>
+      <div className={styles.callToAction}>
+        <img className={styles.bgIcon1} alt="" src="/bg.svg" />
+        <div className={styles.content4}>
+          <div className={styles.title}>
+            <div className={styles.areYouGoing}>
+              Are you going to enroll your child to a class?
+            </div>
+            <div
+              className={styles.pretiumTurpisFaucibus2}
+            >{`Pretium turpis faucibus adipiscing duis. Id quis tristique mi vitae nec. In et in praesent pellentesque sit porta ridiculus faucibus. `}</div>
+          </div>
+          <div className={styles.btn6}>
+            <b className={styles.submit}>Read more</b>
+          </div>
+        </div>
+      </div>
+      <div className={styles.about}>
+        <img
+          className={styles.pexelsYanKrukau86131212Icon}
+          alt=""
+          src="/pexelsyankrukau8613121-1@2x.png"
+        />
+        <div className={styles.content5}>
+          <div className={styles.titleText}>
+            <div className={styles.howToEnroll}>
+              welcome to our kindergarten
+            </div>
+            <div className={styles.pretiumTurpisFaucibus3}>
+              Pretium turpis faucibus adipiscing duis. Id quis tristique mi
+              vitae nec. In et in praesent pellentesque. Porta sit porta
+              ridiculus faucibus. Curabitur lacus pretium pellentesque interdum
+              urna blandit.
+            </div>
+          </div>
+          <div className={styles.btn2}>
+            <b className={styles.submit}>About us</b>
+          </div>
+        </div>
+      </div>
+      <div className={styles.features}>
+        <div className={styles.div50}>
+          <div className={styles.icon}>
+            <div className={styles.iconChild} />
+            <img
+              className={styles.mdiplaygroundSlideIcon}
+              alt=""
+              src="/mdiplaygroundslide.svg"
+            />
+          </div>
+          <div className={styles.howToEnroll}>gaming Playground</div>
+        </div>
+        <div className={styles.div50}>
+          <div className={styles.icon}>
+            <div className={styles.iconItem} />
+            <img
+              className={styles.mdiplaygroundSlideIcon}
+              alt=""
+              src="/materialsymbolshouseoutline.svg"
+            />
+          </div>
+          <div className={styles.howToEnroll}>Happy environment</div>
+        </div>
+        <div className={styles.div50}>
+          <div className={styles.icon}>
+            <div className={styles.iconInner} />
+            <img
+              className={styles.mdiplaygroundSlideIcon}
+              alt=""
+              src="/mdiart.svg"
+            />
+          </div>
+          <div className={styles.howToEnroll}>Creative course</div>
+        </div>
+        <div className={styles.div50}>
+          <div className={styles.icon}>
+            <div className={styles.iconChild1} />
+            <img
+              className={styles.mdiplaygroundSlideIcon}
+              alt=""
+              src="/materialsymbolsabcrounded.svg"
+            />
+          </div>
+          <div className={styles.howToEnroll}>Active Learning</div>
+        </div>
+      </div>
+      <div className={styles.header}>
+        <div className={styles.slider2}>
+          <div className={styles.bg}>
+            <img
+              className={styles.pexelsAliceCastro18703011Icon}
+              alt=""
+              src="/pexelsalicecastro1870301-1@2x.png"
+            />
+            <div className={styles.overlay} />
+          </div>
+          <div className={styles.content6}>
+            <div className={styles.greatPlatformForContainer}>
+              <p className={styles.greatPlatformFor}>{`Great platform for `}</p>
+              <p className={styles.greatPlatformFor}>Little Explorers</p>
+            </div>
+            <div className={styles.btn8}>
+              <b className={styles.submit}>About us</b>
+            </div>
+          </div>
+          <div className={styles.slider3}>
+            <img
+              className={styles.icroundArrowBackIosIcon}
+              alt=""
+              src="/icroundarrowbackios.svg"
+            />
+            <img
+              className={styles.icroundArrowBackIosIcon}
+              alt=""
+              src="/icroundarrowforwardios.svg"
+            />
+          </div>
+        </div>
+        <div className={styles.navbar}>
+          <div className={styles.logo}>
+            <div className={styles.kindergarten1}>KinderGarten</div>
+            <img
+              className={styles.fa6SolidchildrenIcon}
+              alt=""
+              src="/fa6solidchildren.svg"
+            />
+          </div>
+          <div className={styles.navSearch}>
+            <div className={styles.nav}>
+              <div className={styles.active1}>
+                <div className={styles.all}>Home</div>
+              </div>
+              <div className={styles.all}>About</div>
+              <div className={styles.all}>Events</div>
+              <div className={styles.all}>Pricing</div>
+              <div className={styles.all}>Gallery</div>
+              <div className={styles.all}>Blog</div>
+              <div className={styles.all}>Contact</div>
+            </div>
+            <img className={styles.ionsearchIcon} alt="" src="/ionsearch.svg" />
+          </div>
+        </div>
+        <div className={styles.top1}>
+          <div className={styles.info3}>
+            <div className={styles.div54}>
+              <img
+                className={styles.solarmapPointOutlineIcon1}
+                alt=""
+                src="/solarmappointoutline.svg"
+              />
+              <div className={styles.stateRoad54}>
+                State Road 54 Trinity, Florida
+              </div>
+            </div>
+            <div className={styles.div54}>
+              <img
+                className={styles.solarmapPointOutlineIcon1}
+                alt=""
+                src="/solarphonecallingoutline.svg"
+              />
+              <div className={styles.stateRoad54}>call: 666 333 9999</div>
+            </div>
+          </div>
+          <div className={styles.social1}>
+            <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+            <img className={styles.vectorIcon1} alt="" src="/vector.svg" />
+            <img className={styles.vectorIcon2} alt="" src="/vector.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Kindergarten;
